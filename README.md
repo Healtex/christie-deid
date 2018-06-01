@@ -32,8 +32,8 @@ The ChristieDEID is a simple command line tool. The source code should be straig
 ### Example usecases
 
 Use case 1: Print help screen.
- java -jar target/christie-deid-0.1.jar -h
+ `java -jar target/christie-deid-0.1.jar -h`
 
 
 Use case 2: Process a set of plain text letters in directory *inputdir/* and save results in *outputdir/*. The output should include de-identified text. 
- java -jar target/cDeid-0.1.jar --letters --dtext inputdir/ outputdir/ 
+ `java -jar target/cDeid-0.1.jar --letters --dtext inputdir/ outputdir/ `
